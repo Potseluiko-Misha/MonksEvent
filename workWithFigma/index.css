@@ -228,3 +228,157 @@ a {
 }
 
 /* Finish second page */
+
+.container3 {
+    width: 1440px;
+    height: 744px;
+    border: 1px solid black;
+}
+
+.container3_1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 144px;
+    margin-left: 135px;
+    margin-right: 135px;
+    width: 1170px;
+    height: 78px;
+    border: 1px solid black;
+}
+
+.h3_1 {
+    font-size: 46px;
+    margin-top: 0px;
+    font-family: "Manrope", sans-serif;
+    border: 1px solid black;
+}
+
+.p3_1{
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    display: block;
+    margin-top: 0px;
+}
+
+.span3_1 {
+    color: #7A38FC;
+}
+
+.container3_2 {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 1170px;
+    height: 362px;
+    margin-left: 135px;
+}
+
+.img3_1 {
+    width: 570px;
+    height: 362px;
+    border-radius: 20px;
+}
+
+.img3_2 {
+    width: 270px;
+    height: 362px;
+    border-radius: 20px;
+}
+
+.img3_3 {
+    width: 270px;
+    height: 362px;
+    border-radius: 20px;
+}
+
+/* Finish third page */
+
+.container4 {
+    width: 1440px;
+    height: 615px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+.containerInner {
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    width: 1170px;
+    height: 615px;
+    margin-left: 135px;
+}
+
+.container4_1 {
+    width: 312px;
+    height: 615px;
+    border: 1px solid black;
+}
+
+.container4_2 {
+    width: 450px;
+    height: 394px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.container4_1_1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h4_1 {
+    font-size: 46px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Manrope", sans-serif;
+}
+
+.p4_1 {
+    font-size: 16px;
+    margin-top: 0px;
+    font-family: "Manrope", sans-serif;
+    margin-bottom: 0px;
+}
+
+.p4_1_1_1, .p4_1_1_4 {
+    font-size: 20px;
+    font-family: "Manrope", sans-serif;
+}
+
+.p4_1_1_2, .p4_1_1_5 {
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+}
+
+.p4_1_1_3, .p4_1_1_6 {
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+}
+
+.container4_3 {
+    width: 312px;
+    height: 615px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.img4_1 {
+    height: 453px;
+    width: 300px;
+    border-radius: 0px 0px 150px 150px;
+}
+
+.img4_2 {
+    height: 450px;
+    width: 299px;
+    border-radius: 150px 150px 0px 0px;
+    align-self: flex-end;
+}
+
+/* Finish fourth page */
