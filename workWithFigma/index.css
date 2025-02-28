@@ -155,3 +155,76 @@ a {
 }
 
 /* Finish first page */
+
+.container2 {
+    width: 1440px;
+    height: 120px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #FFF5D9;  
+}
+
+.logo1 {
+    font-size: 20px;
+    height: 54px;
+    width: 192px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.logo2 {
+    font-size: 20px;
+    height: 40px;
+    width: 187px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.logo3 {
+    font-size: 20px;
+    height: 40px;
+    width: 187px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.logo4 {
+    font-size: 20px;
+    height: 40px;
+    width: 158px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.logo5 {
+    font-size: 20px;
+    height: 40px;
+    width: 155px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.logo6 {
+    font-size: 20px;
+    height: 40px;
+    width: 182px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-right: -20px;
+}
+
+/* Finish second page */
