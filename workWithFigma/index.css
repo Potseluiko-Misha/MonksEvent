@@ -434,6 +434,8 @@ a {
     border: 1px solid black;
     width: 270px;
     height: 325px;
+    border-radius: 15px;
+    background-color: white;
 }
 
 .img5_1, .img5_2, .img5_3, .img5_4 {
@@ -441,6 +443,7 @@ a {
     width: 270px;
     height: 240px;
     margin-bottom: 0px;
+    border-radius: 15px 15px 0px 0px;
 }
 
 .h5_1_1, .h5_1_2, .h5_1_3, .h5_1_4 {
