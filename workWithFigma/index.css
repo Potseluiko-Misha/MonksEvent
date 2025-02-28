@@ -694,3 +694,140 @@ a {
 }
 
 /* Finish eigth page */
+
+.container8 {
+    width: 1440px;
+    height: 1352px;
+    border: 1px solid black;
+}
+
+.container8_1 {
+    width: 1170px;
+    height: 994px;
+    border: 1px solid black;
+    display: flex;
+    margin-top: 120px;
+    margin-left: 135px;
+    justify-content: space-between;
+}
+
+.container8_2 {
+    margin-top: 120px;
+    margin-left: 638px;
+    width: 163px;
+    height: 54px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+    background-color: #7A38FC;
+}
+
+.container8_1_1 {
+    width: 270px;
+    height: 994px;
+    border: 1px solid black;
+    display: grid;
+    align-content: space-between;
+}
+
+.container8_1_2 {
+    width: 270px;
+    height: 905px;
+    border: 1px solid black;
+    display: grid;
+    align-content: space-between;
+}
+
+.container8_1_3 {
+    width: 270px;
+    height: 994px;
+    border: 1px solid black;
+    display: grid;
+    align-content: space-between;
+}
+
+.container8_1_4 {
+    width: 270px;
+    height: 938px;
+    border: 1px solid black;
+    display: grid;
+    align-content: space-between;
+}
+
+.img8_1 {
+    width: 270px;
+    height: 341px;
+    border: 1px solid black;
+}
+
+.img8_2 {
+    width: 270px;
+    height: 341px;
+    border: 1px solid black;
+}
+
+.img8_3 {
+    width: 270px;
+    height: 252px;
+    border: 1px solid black;
+}
+
+.img8_4 {
+    width: 270px;
+    height: 252px;
+    border: 1px solid black;
+}
+
+.img8_5 {
+    width: 270px;
+    height: 341px;
+    border: 1px solid black;
+}
+
+.img8_6 {
+    width: 270px;
+    height: 252px;
+    border: 1px solid black;
+}
+
+.img8_7 {
+    width: 270px;
+    height: 341px;
+    border: 1px solid black;
+}
+
+.img8_8 {
+    width: 270px;
+    height: 341px;
+    border: 1px solid black;
+}
+
+.img8_9 {
+    width: 270px;
+    height: 252px;
+    border: 1px solid black;
+}
+
+.img8_10 {
+    width: 270px;
+    height: 252px;
+    border: 1px solid black;
+}
+
+.img8_11 {
+    width: 270px;
+    height: 374px;
+    border: 1px solid black;
+}
+
+.img8_12 {
+    width: 270px;
+    height: 252px;
+    border: 1px solid black;
+}
+
+/* Finish ninth page */
