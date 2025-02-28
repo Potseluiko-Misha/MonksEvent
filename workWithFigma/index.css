@@ -624,3 +624,73 @@ a {
 }
 
 /* Finish seventh page */
+
+.container7 {
+    width: 1440px;
+    height: 806px;
+    border: 1px solid black;
+    background-color: #FFF5D9;
+}
+
+.container7_1 {
+    display: flex;
+    width: 1170px;
+    height: 54px;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.h1_7_1 {
+    font-size: 46px;
+}
+
+.a_7_1 {
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.container7_2  {
+    width: 1170px;
+    height: 488px;
+    border: 1px solid black;
+    display: flex;
+    margin: 64px auto;
+    justify-content: space-between;
+}
+
+.container7_2_1 {
+    display: flex;
+    width: 270px;
+    height: 488px;
+    border-radius: 10px;
+    background-image: image-set("https://github-production-user-asset-6210df.s3.amazonaws.com/144279969/418026326-013391da-5f31-4e09-b21e-6060c7515e69.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250228%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250228T124700Z&X-Amz-Expires=300&X-Amz-Signature=db8af19c5933a7010f9cb6ca5d48e827bf9e8a2ca590c3341cce0e7e01725cda&X-Amz-SignedHeaders=host");
+}
+
+.p7_2_1_1 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.p7_2_1_2 {
+    color: white;
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.container7_2_1_1 {
+    margin-left: 18px;
+    align-self: flex-end;
+}
+
+/* Finish eigth page */
