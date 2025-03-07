@@ -166,7 +166,6 @@
 
 .slide2 {
     width: 100%;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -179,36 +178,29 @@
 
 /* Finish second page */
 
-.container3 {
-    width: 1440px;
-    height: 744px;
-    border: 1px solid black;
+.slide3 {
+    width: 100%;
+    margin: auto;
 }
 
-.container3_1 {
+.header3 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: auto;
     margin-top: 144px;
-    margin-left: 135px;
-    margin-right: 135px;
-    width: 1170px;
-    height: 78px;
-    border: 1px solid black;
+    padding: 0 13% 0 10%;
 }
 
-.h3_1 {
+.header3__h1 {
     font-size: 46px;
     margin-top: 0px;
     font-family: "Manrope", sans-serif;
-    border: 1px solid black;
 }
 
-.p3_1{
+.header3__p1{
     font-size: 16px;
     font-family: "Manrope", sans-serif;
     display: flex;
-    align-items: center;
-    border: 1px solid black;
     display: block;
     margin-top: 0px;
 }
@@ -217,32 +209,41 @@
     color: #7A38FC;
 }
 
-.container3_2 {
-    border: 1px solid black;
+.main3 {
     display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    width: 1170px;
-    height: 362px;
-    margin-left: 135px;
+    justify-content: space-around;
+    margin: 50px auto 100px auto;
+    padding: 0 15% 0 15%;
 }
 
-.img3_1 {
+.main3__content-container1 {
     width: 570px;
     height: 362px;
-    border-radius: 20px;
+    position: relative;
 }
 
-.img3_2 {
+.main3__content-container2, .main3__content-container3 {
     width: 270px;
     height: 362px;
     border-radius: 20px;
+    position: relative;
 }
 
-.img3_3 {
-    width: 270px;
-    height: 362px;
+.main3__content-container1, .main3__content-container2, .main3__content-container3 {
+    margin: 0 -500px;
+}
+
+.main3__photo1, .main3__photo2, .main3__photo3 {
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
+}
+
+.main3__p-container1, .main3__p-container2, .main3__p-container3 {
+    position: absolute;
+    bottom: 0%;
+    color: white;
+    left: 5%;
 }
 
 /* Finish third page */
