@@ -249,8 +249,8 @@
 
 .slide4 {
     width: 100%;
-    /* background-color: black;
-    color: white; */
+    background-color: black;
+    color: white;
 }
 
 .slide4__general-container {
@@ -335,36 +335,27 @@
 
 /* Finish fourth page */
 
-.container5 {
-    width: 1440px;
-    height: 651px;
+.slide5 {
+    width: 100%;
     border: 1px solid black;
-    padding-top: 70px;
     background-color: #FFF5D9;
 }
 
-.container5_1 {
-    width: 1440px;
-    height: 102px;
-    border: 1px solid black;
+.header5 {
+    padding-top: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.h5_1 {
-    width: 468px;
-    height: 102px;
-    border: 1px solid black;
+.header5__h1 {
     font-size: 46px;
     display: flex;
     align-self: center;
 }
 
-.a5_1 {
-    width: 181px;
-    height: 54px;
+.header5__button1 {
     font-size: 16px;
-    border: 1px solid black;
+    padding: 20px 25px 20px 25px;
     display: flex;
     align-self: center;
     align-items: center;
@@ -374,43 +365,41 @@
     color: white;
 }
 
-.container5_2 {
-    width: 1170px;
-    height: 325px;
-    border: 1px solid black;
+.slide5__main {
     margin: 80px  auto;
     display: flex;
     justify-content: space-between;
 }
 
-.container5_1_1, .container5_1_2, .container5_1_3, .container5_1_4 {
-    border: 1px solid black;
+.slide5__main-container1, .slide5__main-container2, .slide5__main-container3, .slide5__main-container4 {
     width: 270px;
     height: 325px;
     border-radius: 15px;
     background-color: white;
 }
 
-.img5_1, .img5_2, .img5_3, .img5_4 {
-    border: 1px solid black;
+.slide5__photo-container1, .slide5__photo-container2, .slide5__photo-container3, .slide5__photo-container4 {
     width: 270px;
     height: 240px;
     margin-bottom: 0px;
+}
+
+.slide5__photo1, .slide5__photo2, .slide5__photo3, .slide5__photo4 {
+    width: 100%;
+    height: 100%;
     border-radius: 15px 15px 0px 0px;
 }
 
-.h5_1_1, .h5_1_2, .h5_1_3, .h5_1_4 {
-    border: 1px solid black;
+.photo-container1__h1, .photo-container1__h2, .photo-container1__h3, .photo-container1__h4 {
     width: 230px;
     height: 29px;
     font-size: 24px;
     margin-bottom: 0px;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-left: 10px;
 }
 
-.p5_1, .p5_2, .p5_3, .p5_4 {
-    border: 1px solid black;
+.photo-container1__p1, .photo-container1__p2, .photo-container1__p3, .photo-container1__p4 {
     width: 230px;
     height: 16px;
     font-size: 12px;
