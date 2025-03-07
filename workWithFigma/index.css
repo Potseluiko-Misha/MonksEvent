@@ -1,6 +1,12 @@
-.container1 {
-    width: 1440px;
-    height: 781px;
+.button {
+    text-decoration: none;
+    background: none;       /* Убирает фон кнопки */
+    border: none;           /* Убирает границу кнопки */
+    cursor: pointer;        /* Изменяет указатель на указатель руки (как у кнопок по умолчанию) */
+}
+
+.slide1 {
+    width: 100%;
     border: 1px solid black;
     background-color: black;
     color: white;
@@ -8,43 +14,40 @@
 
 .header1 {
     display: flex;
-    justify-content: space-around;
-    height: 51px;
-    width: 1170px;
+    justify-content: space-between;
     border: 1px solid black;
     padding: 32px 135px 32px 135px;
 }
 
-.button1 {
+.header1__button1 {
     font-size: 28px;
     font-family: "Manrope", sans-serif;
-    width: 181px;
-    height: 31px;
     border: 1px solid black;
+    color: white;
 }
 
-.button2, .button3, .button4, .button5, .button6 {
+.header1__button2, .header1__button3, .header1__button4, .header1__button5, .header1__button6 {
     font-size: 16px;
     font-family: "Manrope", sans-serif;
+    margin: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
 }
 
-.button7 {
+.header1__button7 {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 16px;
     font-family: "Manrope", sans-serif;
-    width: 130px;
-    height: 48px;
     border: 1px solid black;
     border-radius: 10px;
     border: #7A38FC 2px solid;
+    color: white;
 }
 
-.container1_2 {
-    width: 467px;
-    height: 26px;
-    border: 1px solid black;
+.header1__content {
     display: flex;
     justify-content: space-between;
 }
@@ -52,20 +55,16 @@
 .main1 {
     display: flex;
     justify-content: space-between;
-    width: 1170px;
-    height: 570px;
     border: 1px solid black;
     margin: 20px 135px 20px 135px;
 }
 
-.nav1 {
-    width: 513px;
-    height: 457px;
+.main1__nav1 {
     border: 1px solid black;
     padding-top: 20px;
 }
 
-.p1 {
+.main1__p1 {
     font-size: 18px;
     font-weight: bold;
     font-family: "Manrope", sans-serif;
@@ -73,7 +72,7 @@
     margin-bottom: 0;
 }
 
-.h1 {
+.main1__h1 {
     margin-top: 0;
     font-size: 64px;
     font-family: "Manrope", sans-serif;
@@ -82,22 +81,21 @@
     margin-bottom: 0;
 }
 
-.p2 {
+.main1__p2 {
     font-size: 18px;
     font-family: "Manrope", sans-serif;
     border: 1px solid black;
     margin-bottom: 0;
 }
 
-.twoButtons {
+.main1__buttons {
     padding-top: 40px;
 }
 
-.button8 {
+.main1__button1 {
     font-size: 16px;
     font-family: "Manrope", sans-serif;
-    width: 144px;
-    height: 54px;
+    padding: 15px 25px 15px 25px;
     border: 1px solid black;
     text-align: center;
     border-radius: 10px;
@@ -106,51 +104,62 @@
     color: white;
 }
 
-.button9 {
+.main1__button2 {
     font-size: 16px;
     font-family: "Manrope", sans-serif;
-    width: 161px;
-    height: 54px;
+    padding: 15px 25px 15px 25px;
     border: 1px solid black;
     text-align: center;
     border-radius: 8px;
     border: #7A38FC 2px solid;
+    background-color: black;
+    color: white;
 }
 
-.photo1 {
+.main1__nav2 {
     border: 1px solid black;
-    width: 500px;
     height: 570px;
     display: flex;
 }
 
-.photo2 {
-    width: 170px;
-    height: 225px; 
-    border-radius: 100px;
-    margin-top: 78px;
-}
-
-.photo3 {
-    width: 170px;
-    height: 189px; 
-    border-radius: 80px 80px 0px 0px;
-    margin-top: 10px;
-}
-
-.photo4 {
-    width: 270px;
-    height: 424px; 
-    border-radius: 150px 150px 0px 0px;
-    margin-top: 83px;
-}
-
-.togglePhoto {
+.main1__photos {
     margin-left: 25px;
 }
 
-a {
-    cursor: pointer;
+.main1__photo-container1 {
+    height: 225px; 
+    margin-top: 78px;
+    width: 170px;
+}
+
+.main1__photo-container2 {
+    height: 189px; 
+    margin-top: 15px;
+    width: 170px;
+}
+
+.main1__photo-container3 {
+    height: 424px; 
+    width: 270px;
+    margin-top: 83px;
+    margin-left: 15px;
+}
+
+.main1__photo1, .main1__photo2, .main1__photo3 {
+    width: 100%;
+    height: 100%;
+}
+
+.main1__photo1 {
+    border-radius: 100px;
+}
+
+.main1__photo2 {
+    border-radius: 80px 80px 0px 0px;
+}
+
+.main1__photo3 {
+    border-radius: 150px 150px 0px 0px;
 }
 
 /* Finish first page */
