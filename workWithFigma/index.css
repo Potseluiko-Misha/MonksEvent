@@ -1,14 +1,30 @@
-.button {
-    text-decoration: none;
+.button, .slide2__logo:hover {
+    /* text-decoration: none; */
     background: none;       /* Убирает фон кнопки */
     border: none;           /* Убирает границу кнопки */
     cursor: pointer;        /* Изменяет указатель на указатель руки (как у кнопок по умолчанию) */
+    /* transition: 0.4s ease-in; */
+}
+
+.button:hover, .nav__logo:hover, .slide2__logo:hover {
+    transform: scale(1.1);
+}
+
+.button:active, .nav__logo:hover, .slide2__logo:hover {
+    transition-duration: 0s;
 }
 
 .position {
     width: 68%;
     margin: auto;
-    border: 5px solid red;
+}
+
+.slide2__position {
+    width: 78%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
 }
 
 .slide1 {
@@ -47,10 +63,10 @@
     justify-content: center;
     font-size: 16px;
     font-family: "Manrope", sans-serif;
-    border: 1px solid black;
     border-radius: 10px;
     border: #7A38FC 2px solid;
     color: white;
+    padding: 15px 25px 15px 25px;
 }
 
 .header1__content {
@@ -168,9 +184,6 @@
 
 .slide2 {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
     background-color: #FFF5D9;  
 }
 
