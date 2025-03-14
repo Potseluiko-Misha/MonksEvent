@@ -430,9 +430,9 @@
     border-radius: 15px 15px 0px 0px;
     background: radial-gradient(
       circle at center, /* Круг в центре */
-      rgb(255, 254, 254), /* Цвет круга */
-      rgb(255, 254, 254) 40%, /* Радиус круга (20% от ширины/высоты контейнера) */
-      transparent 1% /* Плавный переход к прозрачности */
+      white, /* Цвет круга */
+      white 10%, /* Радиус круга (20% от ширины/высоты контейнера) */
+      transparent 40% /* Плавный переход к прозрачности */
     ),
     linear-gradient(
       to bottom, /* Направление градиента */
@@ -547,6 +547,17 @@
     width: 100%;
     height: 100%;
     border-radius: 10px;
+    background: radial-gradient(
+      circle at center, /* Круг в центре */
+      white, /* Цвет круга */
+      white 20%, /* Радиус круга (20% от ширины/высоты контейнера) */
+      transparent 40% /* Плавный переход к прозрачности */
+    ),
+    linear-gradient(
+      to bottom, /* Направление градиента */
+      #ccc, /* Серый цвет сверху */
+      #999 /* Серый цвет снизу */
+    );
 }
 
 .container2__block2, .container2__block3, .container2__block5, .container2__block6 {
@@ -830,8 +841,13 @@
     position: absolute;
     width: 300px;
     height: 470px;
-    left: calc(50% - 300px/2 + 380px);
-    bottom: -50px;
+    left: 80%;
+    bottom: -23%;
+}
+
+.main__photo {
+    width: 100%;
+    height: 100%;
 }
 
 .main-container__h1 {
