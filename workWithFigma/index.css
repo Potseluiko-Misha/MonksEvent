@@ -6,6 +6,11 @@
     /* transition: 0.4s ease-in; */
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .button:hover, .nav__logo:hover, .slide2__logo:hover {
     transform: scale(1.1);
 }
