@@ -162,9 +162,14 @@ body {
 .header3__p1{
     font-size: 16px;
     font-family: "Manrope", sans-serif;
-    /* display: flex;
-    display: block; */
     margin-top: 0px;
+    margin-bottom: 10%;
+}
+
+.header3__h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .span3_1 {
@@ -222,70 +227,56 @@ body {
     color: white;
 }
 
-.slide4__general-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.slide4__container1 {
-    width: 312px;
-    height: 615px;
-}
-
-.slide4__container2 {
-    width: 450px;
-    height: 394px;
-    margin: auto;
-}
-
 .container4-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 5%;
 }
 
 .containter4__h1 {
-    font-size: 46px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    font-size: 26px;
+    margin-top: 5%;
+    margin-bottom: 2%;
     font-family: "Manrope", sans-serif;
+    justify-self: center;
+    text-align: center;
 }
 
 .containter4__p1 {
-    font-size: 16px;
+    font-size: 12px;
     margin-top: 0px;
     font-family: "Manrope", sans-serif;
+    justify-self: center;
+    text-align: center;
     margin-bottom: 0px;
 }
 
 .slide4__container4-content__p1, .slide4__container4-content__p4 {
-    font-size: 20px;
+    font-size: 10px;
     font-family: "Manrope", sans-serif;
     margin-bottom: 0px;
 }
 
 .slide4__container4-content__p2, .slide4__container4-content__p5 {
-    font-size: 18px;
+    font-size: 10px;
     font-family: "Manrope", sans-serif;
     margin-bottom: 0px;
-    margin-top: 25px;
+    margin-top: 5%;
 }
 
 .slide4__container4-content__p3, .slide4__container4-content__p6 {
-    font-size: 16px;
+    font-size: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 0px;
     color: #b3aeb3e1;
 }
 
-.slide4__container3 {
-    width: 312px;
-    height: 615px;
-    display: flex;
-}
+
 
 .slide4__photo-container1 {
-    height: 453px;
-    width: 300px;
+    height: 200px;
+    width: 50%;
+    margin: auto;
 }
 
 .slide4__photo1 {
@@ -293,9 +284,9 @@ body {
 }
 
 .slide4__photo-container2 {
-    height: 450px;
-    width: 299px;
-    align-self: flex-end;
+    height: 200px;
+    width: 50%;
+    margin: auto;
 }
 
 .slide4__photo2 {
