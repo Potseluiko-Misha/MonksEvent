@@ -858,7 +858,6 @@ body {
         margin: 0;
         padding: 0;
         width: 480px;
-        border: 5px solid black;
         margin: auto;
     }
     
@@ -1691,3 +1690,4 @@ body {
         padding-left: 5%;
     }
 }
+
