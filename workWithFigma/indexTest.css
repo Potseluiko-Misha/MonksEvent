@@ -2479,27 +2479,24 @@ body {
     
     /* Finish eighth page */
     
-    
-    
     .slide9__wrapper {
         background-color: black;
         border-radius: 15px;
-        margin: 15px 0;
+        margin: 15px 0 150px 0;
         border: 1px solid black;
     }
     
     .slide9__main-container {
         position: relative;
-        margin: 50px 50px 50px 50px;
     }
     
     .main-container__photo {
         position: absolute;
         width: 300px;
         height: 470px;
-        left: 80%;
-        bottom: -23%;
-        display: none;
+        left: 70%;
+        bottom: -25%;
+        display: initial;
     }
     
     .main__photo {
@@ -2508,14 +2505,14 @@ body {
     }
     
     .main-container__h1 {
-        font-size: 35px;
-        text-align: center;
+        font-size: 30px;
+        text-align: start;
         color: white;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
     .main-container__p1 {
-        text-align: center;
+        text-align: start;
         font-size: 15px;
         color: #DBDADB;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -2525,10 +2522,10 @@ body {
         background-color: #FEBF00;
         border-radius: 10px;
         display: block;
-        margin: 0 auto;
+        margin: 0;
         font-size: 20px;
         padding: 10px 20px 10px 20px;
-        margin-top: 10%;
+        margin-top: 5%;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
