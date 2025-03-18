@@ -1856,6 +1856,7 @@ body {
     .slide2 {
         width: 100%;
         background-color: #FFF5D9;  
+        padding: 10px 0 10px 0;
     }
     
     .slide2__position {
@@ -1867,8 +1868,8 @@ body {
     } 
     
     .slide2__logo {
-        padding-left: 5px;
-        transform: scale(1.2);
+        padding-left: 18px;
+        transform: scale(1.8);
     }
     
     /* Finish second page */
