@@ -2297,32 +2297,30 @@ body {
     }
     
     .slide7__header {
-        padding-top: 3%;
+        display: flex;
+        justify-content: space-between;
     }
     
     .header__h1 {
-        text-align: center;
+        text-align: start;
         font-size: 36px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
     .header__button1 {
-        font-size: 24px;
-        border: 1px solid black;
+        font-size: 16px;
+        border: 2px solid black;
         border-radius: 10px;
-        display: block; 
-        margin: 0 auto; 
         padding: 5px 15px 5px 15px;
+        margin: auto 0 auto auto;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
     .slide7__main  {
         display: flex;
-        flex-wrap: wrap; 
-        justify-content: space-around;
-        margin-top: 5%;
-        padding-bottom: 10%;
-        gap: 2%; 
+        justify-content: space-between;
+        margin-top: 2%;
+        padding-bottom: 5%;
     }
     
     .main__container1, .main__container2, .main__container3, .main__container4 {
@@ -2330,8 +2328,8 @@ body {
     }
     
     .slide7__photo-container1, .slide7__photo-container2, .slide7__photo-container3, .slide7__photo-container4 {
-        width: 220px;
-        height: 390px;
+        width: 200px;
+        height: 370px;
     }
     
     .slide7__photo1, .slide7__photo2, .slide7__photo3, .slide7__photo4 {
