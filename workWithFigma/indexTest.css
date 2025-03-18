@@ -2143,25 +2143,25 @@ body {
     
     .container1__h1 {
         margin-top: auto;
-        font-size: 35px;
+        font-size: 45px;
         margin-bottom: auto;
         font-weight: 400;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     
     .container1__p1 {
-        font-size: 15px;
+        font-size: 14px;
         font-family: "Manrope", sans-serif;
     }
     
     .container2__block1 {
         display: flex;
-        gap: 20%;
+        gap: 50%;
         align-items: center;
         background-color: black;
         color: white;
         border-radius: 18px;
-        padding: 5px 0;
+        padding: 15px 0;
     }
     
     .slide6__block4-p1, .slide6__block4-p2 {
@@ -2181,18 +2181,18 @@ body {
     }
     
     .block1__p1 {
-        margin-left: 5%;
-        transform: scale(1.2);
+        margin-left: 9%;
+        transform: scale(1.8);
     }
     
     .block1__p2 {
-        transform: scale(1.2);
+        transform: scale(1.8);
     }
     
     .slide6__photo-container1, .slide6__photo-container2, .slide6__photo-container3, .slide6__photo-container4 {
-        width: 200px;
-        height: 155px;
-        margin: auto;
+        width: 180px;
+        height: 135px;
+        padding: auto;
     }
     
     .slide6__photo1, .slide6__photo2, .slide6__photo3, .slide6__photo4 {
@@ -2213,14 +2213,19 @@ body {
     }
     
     .container2__block2, .container2__block3, .container2__block5, .container2__block6 {
-        margin-left: auto;
-        margin: 25px 0 25px 0;
+        display: flex;
     }
     
     .info-card1, .info-card2, .info-card3, .info-card4 {
         width: 100%;
+        margin-left: 2%;
     }
-    
+
+    .card1__main-container1, .card2__main-container1, .card3__main-container1, .card4__main-container1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .main-container1__h1, .main-container2__h1, .main-container3__h1, .main-container4__h1 {
         margin-bottom: 0px;
         font-size: 20px;
@@ -2230,8 +2235,8 @@ body {
     
     .main-container1__p1, .main-container2__p1, .main-container3__p1, .main-container4__p1 {
         margin-top: 0px;
-        font-size: 15px;
-        text-align: center;
+        font-size: 12px;
+        text-align: start;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     
@@ -2242,9 +2247,9 @@ body {
     }
     
     .slide6__p {
-        font-size: 17px;
+        font-size: 14px;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        text-align: center;
+        text-align: start;
     }
     
     .container2__block2, .container2__block3, .container2__block5, .container2__block6 {
@@ -2276,11 +2281,11 @@ body {
     .slide6__button1 {
         background-color: #7A38FC;
         color: white;
-        padding: 20px;
+        padding: 15px;
         border-radius: 10px;
         display: flex;
         justify-self: center;
-        margin-bottom: 10%;
+        margin-bottom: 8%;
         font-size: 15px;
     }
     
