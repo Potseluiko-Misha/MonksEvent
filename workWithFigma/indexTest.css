@@ -1881,20 +1881,25 @@ body {
     
     .header3 {
         width: 100%;
-        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        gap: 10%;
+        padding-bottom: 0;
     }
     
     .header3__p1{
         font-size: 20px;
         font-family: "Manrope", sans-serif;
-        margin-top: 0px;
-        margin-bottom: 10%;
+        text-align: start;
+        padding-top: 4%;
     }
     
     .header3__h1 {
         font-size: 45px;
+        width: 70%;
         font-weight: bold;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: start;
     }
     
     .span3_1 {
@@ -1908,8 +1913,8 @@ body {
     }
     
     .main3__photo-container1, .main3__photo-container2, .main3__photo-container3 {
-        width: 140px;
-        height: 170px;
+        width: 280px;
+        height: 310px;
         border-radius: 20px;
     }
     
