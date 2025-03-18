@@ -1703,9 +1703,8 @@ body {
     body {
         margin: 0;
         padding: 0;
-        width: 960px;
+        width: 100%;
         margin: auto;
-        border: 5px solid red;
     }
     
     .button:hover, .nav__logo:hover, .slide2__logo:hover, .main3__photo-container1:hover, .main3__photo-container2:hover, .main3__photo-container3:hover, .slide5__main-container1:hover, .slide5__main-container2:hover, .slide5__main-container3:hover, .slide5__main-container4:hover, .container2__block2:hover, .container2__block3:hover, .container2__block5:hover, .container2__block6:hover, .main__container1:hover, .main__container2:hover, .main__container3:hover, .main__container4:hover, .column-one__photo-container1:hover, .column-one__photo-container2:hover, .column-one__photo-container3:hover, .column-two__photo-container1:hover, .column-two__photo-container2:hover, .column-two__photo-container3:hover, .column-three__photo-container1:hover, .column-three__photo-container2:hover, .column-three__photo-container3:hover, .column-four__photo-container1:hover, .column-four__photo-container2:hover, .column-four__photo-container3:hover {
