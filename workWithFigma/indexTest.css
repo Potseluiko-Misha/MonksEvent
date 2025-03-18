@@ -2548,33 +2548,34 @@ body {
     }
     
     .container__p1 {
-        font-size: 17px;
+        font-size: 13px;
         text-align: center;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
     .slide10__container-input {
-        margin-top: 30px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
     }
     
     .slide10__input1 {
-        display: block;
-        margin: 0 auto;
-        padding: 20px 50px 20px 50px;
+        padding: 5px 170px 5px 25px;
+        margin: 0;
         border-radius: 10px;
-        font-size: 20px;
+        font-size: 15px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
     .container__button {
         display: block;
-        margin: 0 auto;
+        margin: 0;
         background-color: #7A38FC;
         color: white;
-        padding: 20px 45px 20px 45px;
-        font-size: 25px;
+        padding: 20px 35px 20px 35px;
+        font-size: 20px;
         border-radius: 10px;
-        margin-top: 10%;
     }
     
     .nav__button1, .nav__button2, .nav__button3, .nav__button4, .nav__button5, .nav__button6, .nav__button7 {
@@ -2586,33 +2587,48 @@ body {
     .slide10__nav {
         border: 1px solid black;
         margin-top: 10%;
+        display: flex;
+        justify-content: space-between;
     }
     
     .slide10__nav-button {
         color: white;
         display: block;
-        margin: 0 auto;
+        margin: 0;
         font-size: 25px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
     .nav__buttons-container {
-        margin-top: 5%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        margin: 0;
+        gap: 2%;
     }
     
     .nav__logos-container {
-        margin-top: 5%;
+        margin-top: 0;
         border: 1px solid black;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        margin-right: -30px;
+    }
+
+    .nav__logo > svg {
+        transform: scale(0.8);
     }
     
     .nav__footer-container {
         border-bottom: 1px solid black;
-        margin-top: 3%;
-        padding-left: 5%;
+        margin-top: 2%;
+        margin-left: -40px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-container__general {
+        display: flex;
+        gap: 7%;
     }
 }
 
